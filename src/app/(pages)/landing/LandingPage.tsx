@@ -20,7 +20,7 @@ export default function LandingPage() {
         <div className="text-6xl font-bold">New Era of Rank Tracking</div>
         <div className="text-lg flex justify-center flex-col items-center  text-[#d2d0dd]">
           <p className=" pt-5 max-w-[580px]">
-            Find out what's working and what's not to get more search traffic.
+            {`Find out what's working and what's not to get more search traffic.`}
           </p>
           <p>Like an SEO consultant who can analyze millions of data.</p>
         </div>
@@ -41,7 +41,7 @@ export default function LandingPage() {
         <div>Faster. Smarter.</div>
         <div>Start to use in few seconds</div>
         <div className="text-xl font-normal leading-snug pt-3 text-[#d2d0dd]">
-          Let us find the best competitors and we'll use the given
+          {`Let us find the best competitors and we'll use the given`}
         </div>
         <div className="text-xl font-normal text-[#d2d0dd]">
           data to find most relevant keywords.

@@ -31,8 +31,8 @@ const GrayTwinklingCircles = () => {
   // Animation loop
   useEffect(() => {
     const animationFrame = requestAnimationFrame(function animate() {
-      setCircles((prevCircles) =>
-        prevCircles.map((circle) => {
+      setCircles((prevCircles: any) =>
+        prevCircles.map((circle: any) => {
           // Update position
           let newX = circle.x + circle.speedX;
           let newY = circle.y + circle.speedY;
@@ -74,7 +74,7 @@ const GrayTwinklingCircles = () => {
   return (
     <div className="flex justify-center">
       <div className="relative w-[calc(100%-20vw)] h-[calc(100vh-40vh)] bg-transparent overflow-hidden ">
-        {circles.map((circle) => (
+        {circles.map((circle : any) => (
           <div
             key={circle.id}
             className="absolute rounded-full transition-transform"

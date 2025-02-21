@@ -1,7 +1,6 @@
 import { FcGoogle } from "react-icons/fc";
-import Input from "./Input";
 import Button from "./Button";
-import { signIn, signOut } from "next-auth/react";
+import { signIn } from "next-auth/react";
 import { useState } from "react";
 
 function Signin() {

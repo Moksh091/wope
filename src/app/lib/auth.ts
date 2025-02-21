@@ -29,7 +29,7 @@ export const authOptions: AuthOptions = {
   callbacks: {
     session: async ({ session, user }) => {
       if (session.user) {
-        //@ts-ignore
+        //@ts-expect-error id error
         session.user.id = user.id;
       }
       return session;
